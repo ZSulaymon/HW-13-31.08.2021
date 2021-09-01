@@ -7,7 +7,7 @@ namespace HW_13
         static void Main(string[] args)
         {
 
-            Player player = new Player();
+            Player player = new ();
             Play(player);
         }
         public static void Play(IRecPlayable player)
